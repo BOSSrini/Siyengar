@@ -1,0 +1,13 @@
+OrgCode (example): 01-GS-C3-00-DA
+
+OrgL1 = Company (01)
+|_ OrgL2 = Sector (GS)
+   |_ OrgL3 = Practice / Discipline (C3)
+      |_ OrgL4 = Group (00)
+         |_ OrgL5 = Office (DA)
+
+
+OrgL3a = Market / Discipline
+ - Not explicitly noted in our our org code
+ - Falls between Sector and Practice /Discipline
+ - Cross reference table in Vision and <something_forgot> in Ultipro maps each OrgL3 to it's OrgL3a
