@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlMI1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlMI",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=bosserverdb.database.windows.net;initial catalog=Sample100;user id=bosadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkJPU0RBVEFGQUNUT1JZX2I2Y2I4YWExLWU1MjYtNGNjNS05MTQ4LWU5NjRhODgwYTlmMiINCn0="
+		}
+	}
+}
